@@ -1,0 +1,72 @@
+/*EXERCICE 1 :*/
+/*LA QUESTION 1*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+/*LA QUESTION 2*/
+article>h2{
+    color: rgb(18, 92, 18);
+}
+/*LA QUESTION 3*/
+h2~p{
+    color: blue;
+    font-style:italic;
+}
+/*LA QUESTION 4*/
+h1:first-of-type{
+    text-shadow: 0 0 10px red;
+}
+/*LA QUESTION 5*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 40px
+}
+/*EXERCICE 2:*/
+/*LA QUESTION 1*/
+.bleu{
+    height: 280px;
+    width: 280px;
+    background-color: blue;
+    animation-name: square;
+    animation-duration: 2s;
+    animation-delay: 1s; 
+} 
+/*LA QUESTION 2*/
+@keyframes square{
+    0%{
+        translate: 0 0;
+    }
+    100%{
+        translate: 300px 300px;
+    }
+}
+/*LA QUESTION 3*/
+@keyframes square{
+    0%{
+        rotate: 0 0;
+    }
+    100%{
+        rotate: 35deg;
+    }
+}
+/*LA QUESTION 4*/
+@media ( max-width:670px){
+    .bleu{
+        background-color: red;
+    }
+}
+/*LA QUESTION 4*/
+@media ( max-width:670px){
+    .bleu{
+        background-color: red;
+    }
+}
+@media ( min-width:1150px){
+    .bleu{
+        background-color: red;
+    }
+}

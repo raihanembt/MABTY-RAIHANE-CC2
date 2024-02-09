@@ -1,0 +1,31 @@
+.card{
+    background-color: pink;
+    height: 100px;
+}
+h1{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navigation{
+    height: 50px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.7s ease;
+}
+a:hover {
+    background-color:white;
+    transform: scale(1.1);
+}
+.menu{
+    padding-top: 10px;
+    padding-left: 750px;
+}

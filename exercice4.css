@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.card1{
+    background-color: black;
+    width:350px;
+    height: 100px;
+    border-radius: 70%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
